@@ -1,23 +1,38 @@
-.bg-cover{
-  background-image: url('/dist/assets/dummy-photo.jpg');
+.body{
+  font-family: 'Lato', sans-serif;;
 }
 
-.fa-book-dead{
-  margin-right: 0.25rem;
+.header-hero{
+  background-image: url('/dist/assets/badass-kanban-hero-lg.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #ffffff
 }
+
+.navbar-brand{
+  font-family: 'Baloo 2', cursive;;
+}
+
+
 
 .hero-container {
-  color: white;
+  color: rgb(33, 37, 41);
   height: 400px;
     display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: right;
 }
 
 .card{
   border: none;
   height: 10rem;
   margin: 2rem auto 2rem auto;
+  max-width: 600px;
+}
+
+.feature-image{
+  /* height: 100%; */
+  width: 100%;
 }
 
 .foot-cover {
