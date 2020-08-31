@@ -1,45 +1,63 @@
-.body{
-  font-family: 'Lato', sans-serif;;
+* {
+  margin: 0;
 }
 
-.header-hero{
-  background-image: url('/dist/assets/badass-kanban-hero-lg.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: #ffffff
+body {
+  font-family: 'Lato', sans-serif;
 }
 
 .navbar-brand{
-  font-family: 'Baloo 2', cursive;;
+  font-family: 'Baloo 2', cursive;
 }
 
-
+.hero-container h1 {
+  font-family: 'Baloo 2', cursive;
+}
 
 .hero-container {
   color: rgb(33, 37, 41);
-  height: 400px;
-    display: flex;
-  align-items: center;
-  justify-content: right;
+  height: 700px;
 }
 
-.card{
-  border: none;
-  height: 10rem;
-  margin: 2rem auto 2rem auto;
-  max-width: 600px;
+.hero-container img {
+  max-height: 600px;
+}
+
+.feature-container {
+  padding: 50px;
 }
 
 .feature-image{
-  /* height: 100%; */
-  width: 100%;
+  max-width: 100%;
+}
+
+.feature-text {
+  margin: 2rem;
+}
+
+.feature-text h5 {
+  font-weight: 700;
 }
 
 .foot-cover {
   background-color: #F65C51;
 }
 
-.footer-container {
-  color: white;
-  height: 150px;
+.landing-footer {
+  text-align: center;
+  height: 400px;
+  background-image: url("./assets//confetti.svg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+@media (max-width: 450px) {
+  .landing-footer {
+    background-size: 300%;
+  }
+
+  .hero-container img {
+    height: 200px;
+  }
 }
